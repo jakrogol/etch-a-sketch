@@ -1,0 +1,10 @@
+#grid-container {
+  width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid-square {
+  outline: 1px solid black;
+  outline-offset: -1px;
+}
