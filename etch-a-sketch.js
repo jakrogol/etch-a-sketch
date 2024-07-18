@@ -20,9 +20,6 @@ function drawGrid(columns) {
     square.addEventListener('mouseover', () => {
       square.style.backgroundColor = `rgb(${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)})`;
     });
-    square.addEventListener('mouseout', () => {
-      square.style.backgroundColor = '';
-    })
     gridContainer.appendChild(square);
   }
 }
