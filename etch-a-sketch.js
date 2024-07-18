@@ -18,7 +18,7 @@ function drawGrid(columns) {
     square.style.height = `${dimension}px`;
     square.classList.add('grid-square');
     square.addEventListener('mouseover', () => {
-      square.style.backgroundColor = 'lightblue';
+      square.style.backgroundColor = `rgb(${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)})`;
     });
     square.addEventListener('mouseout', () => {
       square.style.backgroundColor = '';
